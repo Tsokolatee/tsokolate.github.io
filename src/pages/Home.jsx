@@ -14,7 +14,7 @@ export default function Home() {
                         </div>
                         <p className="my-6 w-[400px] text-[#001D3D]">Streamlining the process of taking formal and beautify photos in photo booths for students and applicants.</p>
                     </div>
-                    <img className="hidden lg:block absolute top-[-70px] lg:right-[-250px] xl:right-[-120px] 2xl:right-[-20px] w-auto h-[800px]" src="src/assets/img1.png" />
+                    <img className="hidden lg:block absolute top-[-70px] lg:right-[-250px] xl:right-[-120px] 2xl:right-[-20px] w-auto h-[800px]" src="/img1.png" />
                 </section>
 
                 <section className="flex flex-col space-y-8">
@@ -24,15 +24,15 @@ export default function Home() {
                     </div>
                     <div className="flex flex-wrap flex-row justify-center items-center space-y-8 lg:space-y-0 xl:space-x-6  text-center font-semibold group">
                         <div className="Card Custom-Card">
-                            <img className="Card-Img" src="src/assets/gaze.jpg" alt="" />
+                            <img className="Card-Img" src="/gaze.jpg" alt="" />
                             <p className="Card-P">Gaze Estimation and Hand Gesture recognition using Camera Vision for navigating and menu selection</p>
                         </div>
                         <div className="Card Custom-Card">
-                            <img className="Card-Img" src="src/assets/formal.jpg" alt="" />
+                            <img className="Card-Img" src="/formal.jpg" alt="" />
                             <p className="Card-P">Formal capturing method of photos good for 1X1 and 2X2 photos</p>
                         </div>
                         <div className="Card Custom-Card">
-                            <img className="Card-Img" src="src/assets/beauty.jpg" alt="" />
+                            <img className="Card-Img" src="/beauty.jpg" alt="" />
                             <p className="Card-P">Beauty capturing method of photos good for taking selfie and groupie photos.</p>
                         </div>
                     </div>
@@ -45,15 +45,15 @@ export default function Home() {
                     </div>
                     <div className="flex flex-wrap flex-row justify-center items-center space-y-8 lg:space-y-0 xl:space-x-6 text-center font-semibold">
                         <div className="Card Custom-Card">
-                            <img className="m-4 w-24 h-24" src="src/assets/Logo.png" alt="" />
+                            <img className="m-4 w-24 h-24" src="/Logo.png" alt="" />
                             <p>Gaze Estimation and Hand Gesture recognition using Camera Vision for navigating and menu selection</p>
                         </div>
                         <div className="Card Custom-Card">
-                            <img className="m-4 w-24 h-24" src="src/assets/Logo.png" alt="" />
+                            <img className="m-4 w-24 h-24" src="/Logo.png" alt="" />
                             <p>Formal capturing method of photos good for 1X1 and 2X2 photos</p>
                         </div>
                         <div className="Card Custom-Card">
-                            <img className="m-4 w-24 h-24" src="src/assets/Logo.png" alt="" />
+                            <img className="m-4 w-24 h-24" src="/Logo.png" alt="" />
                             <p>Beauty capturing method of photos good for taking selfie and groupie photos.</p>
                         </div>
                     </div>
@@ -64,8 +64,8 @@ export default function Home() {
                     <p className="lg:w-[900px]">QuickSnap is a computer vision-based application that leverages advanced techniques such as gaze estimation, palm tracking, and smile capture to create a seamless and efficient photo-capturing experience. By utilizing these cutting-edge technologies, QuickSnap eliminates the need for users to navigate through complicated menus and settings, making the photo-taking process quick and effortless.</p>
                     <p className="text-2xl font-bold">Download QuickSnap: </p>
                     <div className="flex space-x-4">
-                        <a className="Download" href="src/download/QuickSnap-Personal.txt" download="QuickSnap_Personal_v1.0">Personal<img className="h-6 ml-2" src="src/assets/dl.png"/></a>
-                        <a className="Download" href="src/download/QuickSnap-Business.txt" download="QuickSnap_Business_v1.0">Business<img className="h-6 ml-2" src="src/assets/dl.png"/></a>
+                        <a className="Download" href="src/download/QuickSnap-Personal.txt" download="QuickSnap_Personal_v1.0">Personal<img className="h-6 ml-2" src="/dl.png"/></a>
+                        <a className="Download" href="src/download/QuickSnap-Business.txt" download="QuickSnap_Business_v1.0">Business<img className="h-6 ml-2" src="/dl.png"/></a>
                     </div>
                 </section>
             </div>
