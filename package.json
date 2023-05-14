@@ -1,6 +1,7 @@
 {
-  "name": "quicksnap-web",
+  "name": "tsokolate.github.io",
   "private": true,
+  "homepage": "https://github.com/Tsokolatee/tsokolate.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
