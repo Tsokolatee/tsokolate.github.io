@@ -8,7 +8,7 @@ export default function Footbar() {
                     <img className="mr-4 w-auto h-16" src="./Logo.png" alt="" />
                     <img className="w-auto h-12" src="./Banner.png" alt="" />
                 </div>
-                <p className="text-gray-300 text-lg lg:text-center font-semibold">© 2023 QuickSnap. All Rights Reserved.</p>
+                <p className="text-gray-300 text-lg text-center font-semibold">© 2023 QuickSnap. All Rights Reserved.</p>
                 <div className="text-gray-300">
                     <p className="text-sm  font-semibold">Developed by:</p>
                     <p className="text-2xl font-bold">BSCS4B - Bonadults</p>
