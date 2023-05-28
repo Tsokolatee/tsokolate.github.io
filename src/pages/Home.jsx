@@ -89,7 +89,7 @@ export default function Home() {
                     <p className=" text-white text-2xl sm:text-4xl lg:text-5xl font-bold italic">Developers</p>
                     <div className="flex flex-wrap flex-row justify-center items-center text-center font-semibold">
                         <div className="Card Custom-Card-Pr">
-                            <img className="Card-Img" src="./BL.jpg" alt="" />
+                            <img className="Card-Img top-4" src="./BM-removebg-preview.png" alt="" />
                             <div className="Card-Pr">
                                 <p className="font-black">Belic, Jerryl Mae</p>
                                 <p>Project Manager, Front-end Developer, Researcher</p>
