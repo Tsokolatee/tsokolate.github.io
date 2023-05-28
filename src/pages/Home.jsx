@@ -39,7 +39,7 @@ export default function Home() {
                             </div>
                         </div>
                     </section>
-                    
+
                 </div>
 
                 <div className="hidden lg:block">
@@ -75,13 +75,68 @@ export default function Home() {
                 </div>
 
 
-                <section id="download" className="flex flex-col justify-center items-center p-6 mt-6 space-y-6 bg-[#003566] w-full h-auto text-center text-white">
+                <section id="download" className="flex flex-col justify-center items-center p-6 mt-6 space-y-6 w-full h-auto  text-center text-white lg:text-[#001D3D] bg-[#003566] lg:bg-transparent">
                     <p className="text-3xl font-bold italic">"QuickSnap, Capturing the best moments in your life."</p>
                     <p className="lg:w-[900px]">QuickSnap is a computer vision-based application that leverages advanced techniques such as gaze estimation, palm tracking, and smile capture to create a seamless and efficient photo-capturing experience. By utilizing these cutting-edge technologies, QuickSnap eliminates the need for users to navigate through complicated menus and settings, making the photo-taking process quick and effortless.</p>
-                    <p className="text-2xl font-bold">Download QuickSnap: </p>
+                    <p className="text-2xl font-bold">Download:</p>
                     <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
-                        <a className="Download" href="src/download/QuickSnap-Personal.txt" download="QuickSnap_Personal_v1.0">Personal<img className="h-6 ml-2" src="./dl.png" /></a>
-                        <a className="Download" href="src/download/QuickSnap-Business.txt" download="QuickSnap_Business_v1.0">Business<img className="h-6 ml-2" src="./dl.png" /></a>
+                        <a className="Download text-white" href="src/download/QuickSnap-Personal.txt" download="QuickSnap_Personal_v1.0">QuickSnap V.1<img className="h-6 ml-2" src="./dl.png" /></a>
+                        {/* <a className="Download" href="src/download/QuickSnap-Business.txt" download="QuickSnap_Business_v1.0">Business<img className="h-6 ml-2" src="./dl.png" /></a> */}
+                    </div>
+                </section>
+
+                <section className="hidden lg:hidden-none lg:flex flex-col py-12 space-y-8 text-center bg-[#003566]">
+                    <p className=" text-white text-2xl sm:text-4xl lg:text-5xl font-bold italic">Developers</p>
+                    <div className="flex flex-wrap flex-row justify-center items-center text-center font-semibold">
+                        <div className="Card Custom-Card-Pr">
+                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <div className="Card-Pr">
+                                <p className="font-black">Belic, Jerryl Mae</p>
+                                <p>Project Manager, Front-end Developer, Researcher</p>
+                            </div>
+                        </div>
+                        <div className="Card Custom-Card-Pr">
+                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <div className="Card-Pr">
+                                <p className="font-black">Ocampo, Jerud</p>
+                                <p>Full-stack Developer</p>
+                            </div>
+                        </div>
+                        <div className="Card Custom-Card-Pr">
+                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <div className="Card-Pr">
+                                <p className="font-black">Flores, Jake</p>
+                                <p>Front-end Developer, Researcher</p>
+                            </div>
+                        </div>
+                        <div className="Card Custom-Card-Pr">
+                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <div className="Card-Pr">
+                                <p className="font-black">Samson, Jon Bryan</p>
+                                <p>Front-end Developer, Graphic Artist,Researcher</p>
+                            </div>
+                        </div>
+                        <div className="Card Custom-Card-Pr">
+                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <div className="Card-Pr">
+                                <p className="font-black">Tajada, Russel</p>
+                                <p>Front-end Developer, Researcher</p>
+                            </div>
+                        </div>
+                        <div className="Card Custom-Card-Pr">
+                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <div className="Card-Pr">
+                                <p className="font-black">Barbachano, Raybhen</p>
+                                <p>Front-end Developer, Researcher</p>
+                            </div>
+                        </div>
+                        <div className="Card Custom-Card-Pr">
+                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <div className="Card-Pr">
+                                <p className="font-black">Veloria, Richard</p>
+                                <p>Front-end Developer, Researcher</p>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>

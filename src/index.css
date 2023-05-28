@@ -15,11 +15,17 @@
 .Custom-Card {
     @apply lg:m-6 xl:m-0 relative flex flex-col items-center overflow-hidden w-[320px] sm:w-[400px] h-[400px] sm:h-[500px] rounded-lg shadow-md bg-white shadow-slate-400 border-2 border-slate-400 ;
   }
+.Custom-Card-Pr{
+    @apply lg:m-6 relative flex flex-col items-center overflow-hidden w-[320px] h-[400px] rounded-lg shadow-md bg-white shadow-slate-400 border-2 border-slate-400 ;
+}
 .Card-Img {
     @apply absolute top-[-100px];
 }
 .Card-P {
     @apply absolute z-10 bottom-0 flex items-center p-6 bg-white h-[120px];
+}
+.Card-Pr{
+  @apply absolute z-10 bottom-0 flex flex-col justify-end p-4 w-full h-[140px] text-white bg-gradient-to-b from-transparent via-slate-800 to-slate-900;
 }
 .Nav-Button{
     @apply p-4 text-xl text-white font-semibold rounded-xl hover:bg-[#003566] hover:scale-105 transition duration-200 ease-in-out active:scale-100;
