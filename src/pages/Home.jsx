@@ -89,49 +89,49 @@ export default function Home() {
                     <p className=" text-white text-2xl sm:text-4xl lg:text-5xl font-bold italic">Developers</p>
                     <div className="flex flex-wrap flex-row justify-center items-center text-center font-semibold">
                         <div className="Card Custom-Card-Pr">
-                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <img className="Card-Img" src="./BL.jpg" alt="" />
                             <div className="Card-Pr">
                                 <p className="font-black">Belic, Jerryl Mae</p>
                                 <p>Project Manager, Front-end Developer, Researcher</p>
                             </div>
                         </div>
                         <div className="Card Custom-Card-Pr">
-                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <img className="Card-Img top-4" src="./OJ-removebg-preview.png" alt="" />
                             <div className="Card-Pr">
                                 <p className="font-black">Ocampo, Jerud</p>
                                 <p>Full-stack Developer</p>
                             </div>
                         </div>
                         <div className="Card Custom-Card-Pr">
-                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <img className="Card-Img top-[-50px]" src="./FJ-removebg-preview.png" alt="" />
                             <div className="Card-Pr">
                                 <p className="font-black">Flores, Jake</p>
                                 <p>Front-end Developer, Researcher</p>
                             </div>
                         </div>
                         <div className="Card Custom-Card-Pr">
-                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <img className="Card-Img top-4" src="./SJ-removebg-preview.png" alt="" />
                             <div className="Card-Pr">
                                 <p className="font-black">Samson, Jon Bryan</p>
                                 <p>Front-end Developer, Graphic Artist,Researcher</p>
                             </div>
                         </div>
                         <div className="Card Custom-Card-Pr">
-                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <img className="Card-Img top-[-50px]" src="./TR-removebg-preview.png" alt="" />
                             <div className="Card-Pr">
                                 <p className="font-black">Tajada, Russel</p>
                                 <p>Front-end Developer, Researcher</p>
                             </div>
                         </div>
                         <div className="Card Custom-Card-Pr">
-                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <img className="Card-Img top-4" src="./BR-removebg-preview.png" alt="" />
                             <div className="Card-Pr">
                                 <p className="font-black">Barbachano, Raybhen</p>
                                 <p>Front-end Developer, Researcher</p>
                             </div>
                         </div>
                         <div className="Card Custom-Card-Pr">
-                            <img className="Card-Img" src="./beauty.jpg" alt="" />
+                            <img className="Card-Img top-4" src="./VR-removebg-preview.png" alt="" />
                             <div className="Card-Pr">
                                 <p className="font-black">Veloria, Richard</p>
                                 <p>Front-end Developer, Researcher</p>
