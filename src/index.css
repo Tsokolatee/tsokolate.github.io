@@ -11,16 +11,6 @@
     margin-top: -80px;
   }
 
-/* divider */
-
-.top1 {
-    clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 70px));
-  }
-.bottom1 {
-    clip-path: polygon(0 0,100% 70px,100% 100%,0 100%);
-    margin-top: -70px;
-  }
-
 /* Card */
 .Custom-Card {
     @apply lg:m-6 xl:m-0 relative flex flex-col items-center overflow-hidden w-[320px] sm:w-[400px] h-[400px] sm:h-[500px] rounded-lg shadow-md bg-white shadow-slate-400 border-2 border-slate-400 ;
