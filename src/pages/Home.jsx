@@ -26,15 +26,15 @@ export default function Home() {
                         </div>
                         <div className="flex flex-wrap flex-row justify-center items-center space-y-8 lg:space-y-0 xl:space-x-6  text-center font-semibold ">
                             <div className="Card Custom-Card">
-                                <img className="Card-Img" src="./gaze.jpg" alt="" />
+                                <img className="Card-Img top-[-100px]" src="./gaze.jpg" alt="" />
                                 <p className="Card-P">Gaze Estimation and Hand Gesture recognition using Camera Vision for navigating and menu selection</p>
                             </div>
                             <div className="Card Custom-Card">
-                                <img className="Card-Img" src="./formal.jpg" alt="" />
+                                <img className="Card-Img top-[-100px]" src="./formal.jpg" alt="" />
                                 <p className="Card-P">Formal capturing method of photos good for 1X1 and 2X2 photos</p>
                             </div>
                             <div className="Card Custom-Card">
-                                <img className="Card-Img" src="./beauty.jpg" alt="" />
+                                <img className="Card-Img top-[-100px]" src="./beauty.jpg" alt="" />
                                 <p className="Card-P">Beauty capturing method of photos good for taking selfie and groupie photos.</p>
                             </div>
                         </div>
