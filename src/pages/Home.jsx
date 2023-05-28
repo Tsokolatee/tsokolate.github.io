@@ -80,8 +80,7 @@ export default function Home() {
                     <p className="lg:w-[900px]">QuickSnap is a computer vision-based application that leverages advanced techniques such as gaze estimation, palm tracking, and smile capture to create a seamless and efficient photo-capturing experience. By utilizing these cutting-edge technologies, QuickSnap eliminates the need for users to navigate through complicated menus and settings, making the photo-taking process quick and effortless.</p>
                     <p className="text-2xl font-bold">Download:</p>
                     <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
-                        <a className="Download text-white" href="src/download/QuickSnap-Personal.txt" download="QuickSnap_Personal_v1.0">QuickSnap v.0.1<img className="h-6 ml-2" src="./dl.png" /></a>
-                        {/* <a className="Download" href="src/download/QuickSnap-Business.txt" download="QuickSnap_Business_v1.0">Business<img className="h-6 ml-2" src="./dl.png" /></a> */}
+                        <a className="Download text-white" href="./QuickSnap-Personal.txt" download="QuickSnap_Personal_v1.0">QuickSnap v.0.1<img className="h-6 ml-2" src="./dl.png" /></a>
                     </div>
                 </section>
 
